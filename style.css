@@ -136,6 +136,18 @@ body {
   .image-container img {
     content: url("images/image-header-desktop.jpg");
     max-width: 512px;
+    height: 100%;
+  }
+
+  .image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100%);
+    background-color: var(--soft-violet);
+    opacity: 0.5;
+    overflow: hidden;
   }
 
   .text-container {
